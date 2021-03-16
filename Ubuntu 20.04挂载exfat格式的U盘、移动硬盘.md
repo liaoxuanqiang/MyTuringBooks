@@ -2,7 +2,7 @@
 
 ##### 1)安装exfat的支持软件
 
-```sh
+```shell
 sudo apt-get install exfat-fuse
 ```
 
