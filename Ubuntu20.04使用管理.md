@@ -1,4 +1,4 @@
-#####  一、修改系统软件源并更新软件
+#####  Ubuntu20.04修改系统软件源并更新软件
 
 ###### 1) 备份配置文件：
 
@@ -16,13 +16,13 @@ sudo sed -i "s@http://.\*archive.ubuntu.com@http://repo.huaweicloud.com@g" /etc/
 sudo sed -i "s@http://.\*security.ubuntu.com@http://repo.huaweicloud.com@g" /etc/apt/sources.list
 ```
 
-###### 3)    更新系统软件索引
+###### 3)更新系统软件索引
 
 ```
 sudo apt-get update
 ```
 
-###### 4)    更新系统软件
+###### 4)更新系统软件
 
 ```
 sudo apt-get upgrade
